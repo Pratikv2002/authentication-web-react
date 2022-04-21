@@ -11,7 +11,7 @@ import Signup from "./Componant/LoginAndSignIn/Signup";
 import { useState } from "react";
 import { flushSync } from "react-dom";
 function App() {
-  const [loginDone, setloginDone] = useState(false)
+  const [loginDone, setloginDone] = useState(true)
   const [userprofile, setuserprofile] = useState(null)
    function fun1(a,b){
      setloginDone(a)
@@ -21,6 +21,7 @@ function App() {
   //
   return (
     <BrowserRouter>
+    <Navbar/>
     { loginDone &&<Navbar setloginDone = {setloginDone}/>}
       <Routes>
         <Route path="/" element={loginDone===false?<SingIn login1 = {fun1}/>:<Home/>} />

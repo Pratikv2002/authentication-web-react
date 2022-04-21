@@ -7,7 +7,7 @@ export default function Profile(props) {
       <h1>User Profile</h1>
       <div className='profileDiv'>
              <div className='profilesDiv'>
-                 <div><img src={aboutUs}></img></div>
+                 <div><img src={aboutUs} alt="No Image"></img></div>
                  {props.userprofile&&<div className='profilesDivB'>
                      <h4>Name : {props.userprofile.name}</h4>
                      <h4>Email : {props.userprofile.email}</h4>
