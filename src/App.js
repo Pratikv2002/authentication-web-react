@@ -1,6 +1,6 @@
 import "./App.css";
 import SingIn from "./Componant/LoginAndSignIn/SignIn";
-import { BrowserRouter, Routes, Route, Navigate  } from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate  } from "react-router-dom";
 import About from "./Componant/About/About";
 import Contact from "./Componant/Contact/Contact";
 import Features from "./Componant/Features/Features";
@@ -11,7 +11,7 @@ import Signup from "./Componant/LoginAndSignIn/Signup";
 import { useState } from "react";
 import { flushSync } from "react-dom";
 function App() {
-  const [loginDone, setloginDone] = useState(true)
+  const [loginDone, setloginDone] = useState(false)
   const [userprofile, setuserprofile] = useState(null)
    function fun1(a,b){
      setloginDone(a)
@@ -20,8 +20,7 @@ function App() {
   //  user profile
   //
   return (
-    <BrowserRouter>
-    <Navbar/>
+    <HashRouter>
     { loginDone &&<Navbar setloginDone = {setloginDone}/>}
       <Routes>
         <Route path="/" element={loginDone===false?<SingIn login1 = {fun1}/>:<Home/>} />
@@ -33,7 +32,7 @@ function App() {
         <Route path="SignIn" element={loginDone===false?<SingIn login1 = {fun1}/>:<Home/>} />
         <Route path="Signup" element={<Signup/>} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
