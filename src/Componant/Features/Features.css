@@ -1,0 +1,34 @@
+.Features{
+    background: #f6f6f6;
+    text-align: center;
+    padding-top: 100px;
+}
+.Features h1{
+    font-size: 2.5em;
+}
+.featuresDiv{
+    margin-top: 30px;
+    display: flex;
+    text-align: center;
+    padding: 20px 50px;
+}
+.card{
+    margin: 30px;
+}
+.featureIcon{
+    color: white;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding: 20px;
+    background-image: linear-gradient(135deg, rgb(52, 52, 221), rgb(97, 160, 211));
+}
+.card h3{
+     font-weight: 400;
+     font-size: 1.5em;
+}
+.card p{
+    font-weight: 300;
+    font-size: 1.1em;
+    color: rgb(78, 78, 78);
+}

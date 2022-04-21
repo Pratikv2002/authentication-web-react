@@ -1,0 +1,37 @@
+.aboutDiv{
+    display: flex;
+}
+.aboutA img{
+    width: 40vw;
+    margin: 30px;
+}
+.about{
+    margin: 30px;
+    padding-top: 100px;
+}
+.aboutB{
+    /* margin: 30px; */
+}
+.aboutB h1{
+    /* text-align: center; */
+    font-size: 2.5em;
+}
+.aboutB p{
+    font-size: 1.2em;
+    font-weight: 350;
+}
+.aboutList{
+    display: flex;
+}
+.aboutB h3{
+    font-size: 1.5em;
+}
+.aboutList ul{
+    list-style:upper-roman ;
+    margin-top: 0px;
+}
+.aboutList ul li {
+    margin: 5px 10px;
+    font-weight: 350;
+    color: rgb(71, 71, 71);
+}

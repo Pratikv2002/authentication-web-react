@@ -1,0 +1,38 @@
+.profile h1{
+text-align: center;
+font-size: 2em;
+margin-top: 3em;
+}
+.profile{
+    padding-top: 100px;
+    /* background: #f6f6f6; */
+}
+.profileDiv{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5% 5%;
+    justify-content:space-evenly;
+    background: linear-gradient(to right, rgb(180, 180, 255) ,rgb(114, 114, 252));
+    padding: 20px;
+}
+.profilesDiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profilesDiv img{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+.profilesDivB{
+    text-align: center;
+   width: 300px;
+   margin-left: 10px;
+}
+.profilesDivB p{
+   margin-top: 0px;
+   color: rgb(77, 75, 75);
+   font-style: italic;
+}

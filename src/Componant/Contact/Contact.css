@@ -1,0 +1,41 @@
+.contact{
+    padding: 100px;
+}
+.contactDiv{
+    text-align: center;
+    margin: 5% 30%;
+    padding: 20px;
+    box-shadow: 5px 5px 30px 5px rgba(0, 0, 0, 0.445);
+    border-radius: 10px;
+}
+.contactDiv h1{
+      font-size: 2em;
+}
+.name input{
+    margin: 10px 20px;
+    padding: 10px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    justify-content: space-evenly;
+    align-content: space-around;
+}
+.form>input{
+    margin: auto auto 20px auto ;
+    width: 340px;
+    padding: 10px;
+    
+}
+.form>textarea{
+    margin: auto;
+    width: 355px;
+}
+.form>button{
+    padding: 10px 20px;
+    margin: auto;
+    margin-top: 20px;
+    background-image: linear-gradient(to right, rgb(107, 178, 245),rgb(13, 84, 238));
+    border-style: none;
+}

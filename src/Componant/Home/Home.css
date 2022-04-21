@@ -1,0 +1,20 @@
+.homeDiv{
+    text-align: center;
+    margin: 10% 30% 10% 30%;
+}
+.homeDiv h1{
+    font-size: 4em;
+}
+.homeDiv p{
+    font-size: 1.3em;
+    margin-bottom: 50px;
+    color: rgb(78, 78, 78);
+}
+.homeDiv a{
+    font-size: 1.1em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    background-image: linear-gradient(to right, rgb(107, 178, 245),rgb(13, 84, 238));
+    padding: 10px 40px;
+    border-radius: 25px;
+}
